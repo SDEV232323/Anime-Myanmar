@@ -1,0 +1,577 @@
+.playContainer {
+    width: 100%;
+    height: 550px;
+    background-color:#000000;
+    max-height: 550px;
+}
+
+#playMain {
+    padding: 0px 34px;
+    padding-top: 15px;
+    background-color: rgb(16 18 20);;
+}
+
+#setH {
+    max-height: 700px;
+}
+
+.commentConc {
+    color: #fef9f9;
+    padding: 13px 20px;
+    background: #1A2027;
+    margin-top: 7px;
+    overflow: auto;
+}
+
+.addCommentKid {
+    display: flex;
+    align-items: center;
+}
+
+.addComment {
+    margin-top: 10px;
+}
+
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+    color: white !important;
+}
+
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: white !important;
+}
+
+.css-1a1fmpi-MuiInputBase-root-MuiInput-root:before {
+    border-bottom: 1px solid rgb(208 208 208 / 42%) !important;
+}
+
+.css-1a1fmpi-MuiInputBase-root-MuiInput-root:after {
+    border-bottom: 1px solid rgb(208 208 208 / 100%) !important;
+}
+
+.css-1yf1g2m::before {
+    border-bottom: 1px solid rgb(208 208 208 / 42%) !important;
+}
+
+.css-1yf1g2m::after {
+    border-bottom: 1px solid rgb(208 208 208 / 100%) !important;
+}
+
+.css-mqt2s5 {
+    color: white !important;
+}
+
+.commentBox {
+    margin-left: 20px;
+    width: 100%;
+}
+
+.comCon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#comment {
+    background: #3EA6FF;
+    color: black;
+    margin-top: 6px;
+    width: 100px;
+    height: 36px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#comUserName {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.flexAlignCom {
+    align-items: center;
+    margin-top: 6px;
+}
+
+.flexFromReplyCom {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 23px;
+}
+
+.viewMoreReply {
+    display: flex;
+    margin-left: 3px;
+    margin-top: 10px;
+    color: #009eff;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: -15px;
+}
+
+#comThumbup {
+    margin-left: 10px;
+    margin-top: 6px;
+    font-size: 19px;
+    color: #fff
+}
+
+.allCommContainer {
+    margin-top: 25px;
+}
+
+.addReplyKid {
+   display: flex;
+   align-items: center;
+   margin-top: 5px;
+}
+
+.avatar9 {
+    margin-bottom: 24px;
+}
+
+.replyBox {
+    width: 100%;
+    margin-left: 20px;
+}
+
+#comAvatar {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+}
+
+.godMarginBottom {
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+    overflow: auto;
+}
+
+#replayCom {
+    font-size: 14px;
+    margin-left: 7px;
+    margin-top: 4px;
+    color: #717171;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+
+#replyAvatar {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+}
+
+#userCom {
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#comDate {
+    margin-left: 10px;
+    font-size: 13px;
+    color: gray
+}
+
+.allCommentContainer {
+    margin-top: 20px;
+    margin-left: 6px;
+}
+
+#cancelComment {
+    color: gray;
+    margin-right: 15px;
+    margin-top: 6px;
+    width: 100px;
+    height: 36px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+#comment:disabled {
+    background: #303030;
+    color: gray;
+}
+
+.Marg {
+    margin: 6px 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.iconsContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A2027;
+    color: white;
+    padding: 6px 15px;
+}
+
+.Marg:hover {
+    color: #009eff;
+}
+
+.commentHeaderMb {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 20px 15px 20px;
+    border-bottom: 1px solid #3b3b3b;
+    margin-top: 5px;
+    display: none;
+}
+
+#playListContainer {
+    background-color: #1A2027;
+    color: white;
+    max-height: 600px;
+    min-height: 290px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+#title3 {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+#title3:hover {
+    color: #009eff
+}
+
+#card {
+    width: 30px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+
+#card_con {
+    background: rgb(40 46 53);
+    color: white ;
+    cursor: pointer;
+    margin: 10px 10px 10px 0px;
+}
+
+.savior:hover {
+    color: #009eff
+}
+
+video {
+    object-fit: fill;
+}
+
+#tab_ch {
+    color: white;
+    font-size: 13px;
+    font-family: system-ui;
+}
+
+#free {
+    font-size: 14px;
+    padding: 10px 0px;
+    color: wheat;
+}
+
+.css-13xfq8m-MuiTabPanel-root, .css-13xfq8m-MuiTabPanel-root {
+    padding: 0px;
+}
+
+.epConc {
+    justify-content: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.black {
+    height: 42px;
+    overflow: hidden;
+    position: absolute;
+    top: 5px;
+    z-index: 0;
+    width: 101%;
+}
+
+button:focus {outline:0;}
+
+.gifCon {
+    margin-right: 8px;
+    width: 16px;
+    z-index: 1;
+}
+
+.desCon {
+    color: white;
+}
+
+#rightA {
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+#tellEp {
+    margin-top: 21px;
+    font-size: 20px;
+    color: #a3a3a3;
+    font-weight: bold;
+}
+
+.borT {
+    border-bottom: 1px solid #5b5858;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.marginL {
+    margin-left: 3px;
+}
+
+.savior {
+    background: none;
+    border: none;
+    color: white;
+    width: 30px;
+    height: 44px;
+    cursor: pointer;
+}
+
+.loads {
+    height: 100vh;
+    background: rgb(16, 18, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mob_remove {
+    display: inline;
+}
+
+#mbCloseReply {
+    display: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.load2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+
+}
+
+#likePc {
+    margin: 1px 0px 0px 8px;
+}
+
+.scrollEventControllerDiv {
+    max-height: 400px;
+    overflow: scroll;
+}
+
+.notiComment {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    /* text-align: center; */
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+    #playListContainer {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 764px) { 
+   #playMain {
+    padding: 0px
+   }
+
+   .notiComment {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -7px;
+    left: 32px;
+    /* text-align: center; */
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+   }
+
+   .scrollEventControllerDiv {
+    max-height: none;
+   }
+
+   .addCommentKid {
+      height: 85px;
+   }
+
+   #setH {
+    position: sticky;
+    top: 56px;
+    z-index: 9;
+   }
+
+   #mbCloseReply {
+    display: inline-block;
+}
+
+.commentHeaderMb {
+    display: flex;
+    background: #1A2027;
+    z-index: 100;
+    margin-top: 0px;
+}
+
+.commentConc {
+    margin-top: 0px;
+    padding: 0px 20px;
+}
+
+.commentHeaderPc {
+    display: none;
+}
+
+   #comment {
+    margin-top: 7px;
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
+   }
+
+   #cancelComment {
+    margin-top: 7px;
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
+   }
+
+   .godMarginBottom {
+    position: fixed;
+    margin-top: 56px;
+    top: 60vw;
+    bottom: 0;
+    background: #1A2027;
+    z-index: 100;
+    display: none;
+    overflow: auto;
+   }
+
+   #rightA {
+    margin-top: 21px;
+   }
+
+   #comAvatar {
+    width: 45px;
+    height: 45px;
+    font-size: 19px;
+   }
+
+   #replyAvatar {
+    width: 26px;
+    height: 26px;
+    font-size: 12px;
+   }
+
+   .css-19r6kue-MuiContainer-root {
+    padding-left: 0px;
+    padding-right: 0px;
+   }
+
+   #desTit {
+    font-size: 20px;
+   }
+
+   .playContainer {
+    height: 60vw;
+   }
+
+   .iconsContainer {
+    padding: 8px 10px 3px 10px;
+   }
+
+   .mob_remove {
+    display: none;
+}
+
+#thumbOff  {
+    font-size: 20px;
+}
+
+#thumbUp  {
+    font-size: 20px;
+}
+
+#likePc {
+    margin: 0px;
+    font-size: 13px;
+}
+
+.desCon {
+    padding: 10px;
+}
+
+#tellEp {
+    margin-top: 18px;
+    font-size: 20px !important;
+}
+
+#playListContainer{
+    margin: 0px 15px 30px 15px;
+}
+
+#fontForV {
+    font-size: 13px;
+    margin: 0 !important;
+}
+
+.Marg {
+    display: block;
+    text-align: center;
+    font-size: 9px;
+    margin: 3px 10px;
+}
+
+.css-ahj2mt-MuiTypography-root {
+    
+}
+}
+
+@media only screen and (max-width: 321px) {
+    .css-ahj2mt-MuiTypography-root {
+        
+    }
+}

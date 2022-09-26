@@ -1,0 +1,52 @@
+.flexHistory {
+    display: flex;
+    min-height: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #343434;
+}
+
+.boxCon {
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+}
+
+.empty {
+    display: flex;
+    justify-content: center;
+}
+
+.hisConc {
+ color: white;
+ min-height: 60vh;
+ border-bottom: 1px solid #343434;
+ margin-top: 30px;
+}
+
+#emptyAdd {    
+    background: #009eff;
+    color: white;
+    height: 31px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.mbImgCon {
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    max-height: 220px;
+    cursor: pointer;
+    height: 220px;
+}
+
+.currentMb {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: #009eff;
+}

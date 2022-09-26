@@ -1,0 +1,617 @@
+.listMain {   
+    position: absolute;
+    top: -120px;
+    color: white;
+    z-index: 1;
+    background: rgb(2,2,6);
+    background: linear-gradient(0deg, rgba(16,18,20,0.9251050762101716) 30%, rgba(16,18,20,0.8438725832129726) 40%, rgba(16,18,20,0.7906512946975666) 50%, rgba(16,18,20,0.6814075972185749) 61%, rgba(16,18,20,0.5777661406359419) 70%, rgba(16,18,20,0.49653364763874297) 80%, rgba(16,18,20,0.4096989137451855) 89%, rgba(16,18,20,0.13238798937543772) 95%, rgba(16,18,20,0) 100%);
+}
+
+.listCon {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: #101214;
+}
+
+.imgContainer {
+    width: 100%;
+    height: 300px;
+}
+
+.imgContainer2 {
+    width: 100%;
+    height: 130px;
+    position: relative;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.img2 {
+    width: 100%;
+    height: 100%;
+}
+
+#paper {
+    /* width: 250px; */
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#paper2 {
+    cursor: pointer;
+    border-radius: 15px;
+    overflow: hidden;
+    background: black;
+    height: 330px;
+    box-shadow: 4px 5px 19px 6px rgba(0,0,0,0.73);
+}
+
+#playbut2 {
+    font-size: 40px;
+    margin-top: 10px;
+    color: #0486D2;
+    cursor: pointer;
+}
+
+.sharebut2 {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background: whitesmoke;
+    border-radius: 50%;
+    margin-top: 13px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.position {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+#playbut3 {
+    font-size: 45px;
+    margin-top: 0px;
+    color: #1070fa;
+}
+
+.textMain {
+    background-color: #1A2027;
+    padding: 10px;
+    color: white;
+    height: 100%;
+}
+
+.cards {
+    border-radius: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container1 {
+    margin: 0px 30px;
+}
+
+.container1 .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: -22px;
+    width: 37px;
+    height: 20px;
+    overflow: hidden;
+    color: white;
+}
+
+.container1 .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+}
+
+
+.container1 .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: -22px;
+    width: 37px;
+    height: 20px;
+    overflow: hidden;
+    color: white;
+}
+
+.container1 .swiper-button-next.swiper-button-disabled {
+    opacity: 0;
+}
+
+.container1 .swiper {
+    overflow: hidden;
+    display: flex;
+    padding: 18px 15px 18px 15px;
+}
+
+#popular {
+    margin-left: 50px;
+    font-weight: bold;
+    margin-bottom: 0px !important;
+}
+
+.container2 .swiper {
+    overflow: hidden;
+    display: flex;
+    padding: 5px
+}
+
+#conImg {
+    border-radius: 14px;
+    overflow: hidden;
+    background: black;
+}
+
+.conImgCon {
+    position: relative
+}
+
+.watchTo {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    padding-left: 10px;
+    left: 0;
+    right: 0;
+    background: rgb(2,2,6);
+    background: linear-gradient(0deg, rgba(16,18,20,0.9251050762101716) 30%, rgba(16,18,20,0.8438725832129726) 40%, rgba(16,18,20,0.7906512946975666) 50%, rgba(16,18,20,0.6814075972185749) 61%, rgba(16,18,20,0.5777661406359419) 70%, rgba(16,18,20,0.49653364763874297) 80%, rgba(16,18,20,0.4096989137451855) 89%, rgba(16,18,20,0.13238798937543772) 95%, rgba(16,18,20,0) 100%);
+}
+
+.flexCon {
+    display: flex;
+    justify-content: space-between;
+}
+
+#conMain {
+    cursor: pointer;
+    color: white;
+}
+
+.next2 {
+    color: white;
+    height: 23px;
+    overflow: hidden;
+}
+
+.prev2 {
+    color: white;
+    height: 23px;
+    overflow: hidden;
+}
+
+.distinctContinue {
+    padding-top: 30px;
+}
+
+.imgQuotesConc {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.quoteColor {
+    color: #ff385a;
+}
+
+.quotes {
+    position: absolute;
+    width: 45%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #101214;
+    color: white;
+    top: 0;
+    bottom: 0;
+}
+
+#quotesText {
+    font-size: 1.6vw;
+}
+
+#quotesAutor {
+    font-size: 1.5vw;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.distinct {
+    padding-top: 50px;
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+}
+
+.next, .prev, .next1, .prev1 {
+    color: white;
+    height: 23px;
+    overflow: hidden;
+}
+
+.next4, .prev4 {
+    color: white;
+    height: 23px;
+    overflow: hidden;
+}
+
+.currentDuration {
+    height: 4px;
+    background-color: #1cabff;
+}
+
+.whiteC {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#quotesCard {
+    height: 30vw;
+    /* margin: 0px 30px;
+    border-radius: 15px;
+    overflow: hidden; */
+    position: relative;
+}
+
+#quotesCardForMb {
+    display: none;
+}
+
+.white_child {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#loginCardBut {
+    color: white;
+    width: 100px;
+    background: #1070fa;
+    margin-top: 20px;
+    height: 30px;
+    font-family: sans-serif;
+    text-transform: none;
+}
+
+#mobile_title {
+    display: none;
+}
+
+#continue_w {
+    margin-left: 50px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+#con2 {
+    margin: 0px 40px;
+}
+
+#con_h {
+    height: 240px;
+}
+
+#font2 {
+    font-size: 14px;
+}
+
+.next3 {
+    color: white;
+    height: 23px;
+    overflow: hidden;
+}
+
+.prev3 {
+    color: white;
+    height: 23px;
+    overflow: hidden;
+}
+
+.next5 {
+    color: white;
+    height: 23px;
+    overflow: hidden;
+}
+
+.prev5 {
+    color: white;
+    height: 23px;
+    overflow: hidden;
+}
+
+#continue_q {
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.moreInfoL {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1175px) { 
+    .listMain {
+        position: relative;
+        top: 0;
+    }
+
+    #popular {
+        padding-top: 10px;
+        margin-bottom: 0.35rem;
+    }
+
+    .listMain {
+        background: rgb(16 10 20);
+    }
+}
+
+#login_ads {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media only screen and (max-height: 650px) {
+    .listMain {
+        position: relative;
+        top: 0;
+        padding-top: 10px;
+    }
+    #paper {
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 764px) { 
+    .listMain {
+        position: relative;
+        top: 0;
+    }
+
+    #quotesText {
+        font-size: 3.3vw;
+    }
+
+    #quotesCard {
+        display: none;
+    }
+
+    #quotesCardForMb {
+        display: block;
+        margin: 20px 0px;
+    }
+
+    .quotesForMb {
+        padding: 20px 10px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background: #101214;
+        color: white;
+        top: 0;
+        bottom: 0;
+    }
+
+    .imgQuotesConcForMb {
+        height: 50vw;
+    }
+
+    #loginCardBut {
+        color: white;
+        width: 85px;
+        background: #1070fa;
+        margin-top: 20px;
+        height: 27px;
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+
+    #quotesAutor {
+        font-size: 3.1vw;
+    }
+
+    #con2 {
+        margin: 0px 10px;
+    }
+
+    #playbut3 {
+        font-size: 40px;
+    }
+
+    #popular {
+        margin-left: 15px;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    .container2 .swiper {
+        padding: 3px 5px
+    }
+
+    #continue_w {
+        margin-left: 17px;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .container1 {
+        margin: 0px 0px;
+    }
+
+    .swiper-button-next {
+        right: 2px;
+    }
+
+    .swiper-button-prev {
+        left: 2px;
+    }
+
+    .container1 .swiper {
+        padding: 3px 10px 10px 10px
+    }
+ }
+
+ @media only screen and (max-width: 600px) { 
+   .imgContainer {
+    height: 250px;
+   }
+
+   #con_h {
+    height: 200px;
+   }
+ }
+
+ @media only screen and (max-width: 500px) { 
+    .imgContainer {
+     height: 200px;
+    }
+
+    .distinctContinue {
+        padding-top: 10px;
+    }
+    
+    .distinct {
+        padding-top: 0px;
+    }
+
+    #login_ads {
+        font-size: 15px;
+    }
+
+    .next1 {
+        right: 2px;
+        height: 15px;
+        top: 50%;
+    }
+
+    .next {
+        right: 2px;
+        height: 15px;
+        top: 52% !important
+    }
+
+    .prev {
+        right: 2px;
+        height: 15px;
+        top: 52% !important
+    }
+
+    .prev1 {
+        right: 2px;
+        height: 15px;
+        top: 50% !important
+    }
+
+    .next2 {
+        right: 2px;
+        height: 15px;
+        top: 50% !important
+    }
+
+    .prev2 {
+        right: 2px;
+        height: 15px;
+        top: 50% !important
+    }
+
+    .next3 {
+        right: 2px;
+        height: 15px;
+        top: 50% !important
+    }
+
+    .prev3 {
+        right: 2px;
+        height: 15px;
+        top: 50% !important
+    }
+
+    .next4 {
+        right: 2px;
+        height: 15px;
+        top: 50% !important
+    }
+
+    .prev4 {
+        right: 2px;
+        height: 15px;
+        top: 50% !important
+    }
+    .next5 {
+        right: 2px;
+        height: 15px;
+        top: 50% !important
+    }
+
+    .prev5 {
+        right: 2px;
+        height: 15px;
+        top: 50% !important
+    }
+
+  }
+
+ @media only screen and (max-width: 400px) { 
+    .imgContainer {
+     height: 150px;
+    }
+
+    .container1 .swiper-button-next {
+        right: 2px;
+        height: 15px;
+        top: 45%;
+    }
+
+    .container1 .swiper-button-prev {
+        left: 2px;
+        height: 15px;
+        top: 45%;
+    }
+
+    .container2 .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        right: 2px;
+        height: 15px;
+        top: 52%
+    }
+
+    .container2 .next {
+        right: 2px;
+        height: 15px;
+        top: 52%
+    }
+
+    #font {
+        font-size: 14px;
+    }
+
+    #font2 {
+        font-size: 12px;
+    }
+
+    #pc_title {
+        display: none;
+    }
+     
+    #mobile_title {
+        display: block;
+        font-size: 13px;
+    }
+  }

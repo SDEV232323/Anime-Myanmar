@@ -1,0 +1,479 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.name_container {
+    padding: 5px 90px 5px 29px;
+    background-color: #1A2027;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#webName {
+    font-weight: bold;
+    /* color: #c94fc9;; */
+    color: #009eff;
+    font-size: 33px;
+    cursor: pointer;
+}
+
+.search {
+    background-color: #000000;
+    height: 41px;
+    position: relative;
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 2px;
+}
+
+.headerIconMain {
+    color: white;
+    max-width: 700px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchIcon {
+    cursor: pointer;
+    margin: 8px 5px;
+    color: white;
+}
+
+.searchIcon:hover {
+    color: #009eff
+}
+
+.avatarConc {
+    position: relative;
+    margin-right: 30px;
+}
+
+.flexNavPc {
+    display: flex;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.flexPp {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 23px;
+    background: black;
+    border-radius: 9px;
+}
+
+.avatar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+}
+
+.avatar2 .css-1fq6cta-MuiAvatar-root {
+    width: 50px;
+    height: 50px;
+    font-size: 23px;
+}
+
+.flexProfile {
+    display: flex;
+    align-items: center;
+    background: url("../../../public/dark_blue.jpg");
+    padding: 15px 30px;
+    border-radius: 9px;
+}
+
+.lan6 {
+    background-color: #1A2027;
+    position: absolute;
+    width: 270px;
+    margin-top: 22px;
+    left: -175%;
+    z-index: 1000;
+    border-radius: 9px;
+}
+
+.searchbox {
+    height: 41px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    text-indent: 10px;
+    font-size: 17px;
+    margin-top: 0px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.icons {
+    margin-right: 55px;
+    text-align: center;
+    position: relative;
+}
+
+#but {
+    color: white;
+    height: 40px;
+    min-width: 126px;
+    margin-top: 3px;
+    border: 1px solid white;
+}
+
+#but:hover {
+    border-color: #009eff;
+    color: #009eff;
+}
+
+.main {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.lan {
+    background-color: #1A2027;
+    position: absolute;
+    width: 200px;
+    margin-top: 19px;
+    left: -130%;
+    z-index: 1000;
+    padding: 10px 30px;
+    border-radius: 9px;
+}
+
+.lan2 {
+    background-color: #1A2027;
+    position: absolute;
+    width: 310px;
+    margin-top: 19px;
+    z-index: 1000;
+    padding: 15px 0px;
+    border-radius: 5px;
+    max-height: calc(100vh - 110px);
+    overflow: scroll;
+}
+
+.lan3 {
+    background-color: #1A2027;
+    position: absolute;
+    width: 300px;
+    margin-top: 19px;
+    left: -230%;
+    z-index: 1000;
+    border-radius: 9px;
+}
+
+.icon_kids1, .icon_kids2 {
+    cursor: pointer;
+}
+
+.icon_kids1:hover, .icon_kids2:hover {
+    border-color: #009eff;
+    color: #009eff;
+}
+
+.arrowup {
+    position: absolute;
+    top: -23px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+#languages1, #languages2 {
+    font-size: 17px;
+    margin: 10px 0px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#languages1:hover {
+    color: #009eff
+}
+
+#languages2:hover {
+    color: #009eff
+}
+
+.historyList {
+    user-select: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.historyList:hover {
+    background-color: rgba(220, 220, 220, 0.1);
+    color: #009eff
+}
+
+.hisImgCon {
+    height: 75px;
+    min-width: 140px;
+}
+
+#hisTitle {
+    text-align: start;
+    margin-left: 10px;
+    font-size: 15px;
+    height: 63px;
+    overflow-y: scroll;
+}
+
+.hisFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hisProgressBar {
+    background: #646464;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    height: 4px;
+    position: relative;
+}
+
+.realProgressBar {   
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #009eff;
+}
+
+.hisConc {
+    padding: 10px 20px, 
+}
+
+#nav {
+    display: none;
+}
+
+.pcSearch {
+    display: block;
+}
+
+.mobileSearch {
+    display: none
+}
+
+.titleHeader {
+    width: 303px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.searchForM {
+    background-color: #000000;
+    height: 32px;
+    position: relative;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    border: 1px solid white;
+    min-width: 150px;
+    width: 100%;
+}
+
+#cancel {    
+    display: flex;
+    align-items: center;
+    margin: 0px 20px 10px 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.progile_image {
+    width: 55px;
+    margin-bottom: 10px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    background: url("../../../public/dark_blue.jpg");
+}
+
+#profile_name {
+    margin-left: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.vip {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.boxImgs {
+    width: 100px;
+    height: 100px;
+    
+}
+
+#gold {
+    height: 40px;
+    background: #ffc60a;
+    color: #383737;
+    font-weight: bold;
+}
+
+.flexNav {
+    display: flex;
+    padding: 15px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#navText {
+    margin-left: 10px;
+    user-select: none;
+    /* color: white !important; */
+}
+
+.navFeature {
+    border-bottom: 1px solid #343434;
+}
+
+.MuiDrawer-paperAnchorLeft {
+    width: 250px ;
+}
+
+.css-wf16b5 {
+    width: 250px;
+}
+
+.css-1g86id8-MuiTreeItem-content {
+    padding: 0 !important;
+    position: relative;
+}
+
+.css-1g86id8-MuiTreeItem-content .MuiTreeItem-iconContainer {
+    position: absolute;
+    right: 0;
+}
+
+.css-yuu8jj .MuiTreeItem-iconContainer {
+    position: absolute;
+    right: 23px;
+}
+
+.css-1g86id8-MuiTreeItem-content .MuiTreeItem-iconContainer svg {
+    font-size: 25px !important;
+}
+
+.css-yuu8jj .MuiTreeItem-iconContainer svg {
+    font-size: 25px !important;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+}
+
+
+@media only screen and (max-width: 1064px) {
+   .icons {
+    display: none;
+   }
+
+   #nav {
+    display: block;
+   }
+
+   .avatarConc {
+    display: none;
+   }
+
+   .name_container {
+    padding: 0px 5px 0px 5px
+   }
+
+   .titleHeader {   
+    width: 215px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+   }
+
+   .search {
+    height: 30px;
+  }
+
+  .searchIcon {
+    margin: 3px 5px
+  }
+
+  .searchbox {
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 764px) {
+    .pcSearch {
+        display: none;
+    }
+    
+    .mobileSearch {
+        display: block
+    }
+
+    .lan2 {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 0px;
+        width: 100%;
+        background: #000000;
+        height: calc(100vh - 20px);
+        max-height: none;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+  .titleHeader {
+    width: 150px;
+  }
+
+  .search {
+    height: 30px;
+  }
+
+  .searchIcon {
+    margin: 3px 5px
+  }
+
+  .searchbox {
+    height: 30px;
+  }
+}

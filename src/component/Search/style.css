@@ -1,0 +1,75 @@
+.searchCon {
+    padding: 10px 48px;
+    background-color: #101214;
+    color: white;
+    min-height: calc(100vh - 58px)
+}
+
+#search {
+    font-size: 20px;
+}
+
+.imgCoc4 {
+    height: 100%;
+}
+
+#paperC {
+    height: 310px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top: 20px;
+    position: relative;
+    background-color: black;
+    cursor: pointer
+}
+
+#wid {    
+
+}
+
+.abso_child {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px 0px 0px 20px;
+    padding-top: 20px;
+    padding-bottom: 14px;
+    padding-right: 25px;
+    padding-left: 10px;
+}
+
+.abso_child2 {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 0px 10px 15px;
+    background: rgb(2,2,6);
+    background: linear-gradient(0deg, rgba(2,2,6,0.8802871490393032) 39%, rgba(2,2,6,0.8354692218684349) 45%, rgba(2,2,6,0.7794468129048494) 51%, rgba(2,2,6,0.7542367288712359) 54%, rgba(2,2,6,0.6253851882549895) 61%, rgba(2,2,6,0.5049370089832808) 69%, rgba(2,2,6,0.42370451598608194) 78%, rgba(2,2,6,0.2976540958180147) 89%, rgba(2,2,6,0.09037118265274857) 95%, rgba(2,2,6,0) 100%);
+    background: rgb(2,2,6);
+    background: linear-gradient(0deg, rgba(2,2,6,0.9251050762101716) 30%, rgba(2,2,6,0.8438725832129726) 40%, rgba(2,2,6,0.7906512946975666) 50%, rgba(2,2,6,0.6814075972185749) 61%, rgba(2,2,6,0.5777661406359419) 70%, rgba(2,2,6,0.49653364763874297) 80%, rgba(2,2,6,0.4096989137451855) 89%, rgba(2,2,6,0.13238798937543772) 95%, rgba(2,2,6,0) 100%);
+}
+
+.stit {
+    color: #ffffff
+}
+
+.stit:hover {
+    color: #0486D2;
+}
+
+@media only screen and (max-width: 1064px) { 
+    .searchCon {
+     padding: 10px 15px;
+    }
+}
+
+@media only screen and (max-width: 764px) { 
+   .searchCon {
+    padding: 10px;
+   }
+}
+  
